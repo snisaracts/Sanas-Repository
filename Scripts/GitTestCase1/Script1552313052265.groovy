@@ -15,10 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.acceptAlert()
-
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://nhafeez-trials646.orangehrmlive.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Username'))
@@ -36,4 +32,6 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Organization')
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Locations'))
 
 WebUI.closeBrowser()
+
+WebUI.openBrowser('')
 
